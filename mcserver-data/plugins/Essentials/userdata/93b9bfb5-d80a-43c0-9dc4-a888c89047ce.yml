@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.252.103.89
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1700277457999
+  login: 1700273385111
+money: '0'
+last-account-name: Pinkiepie_bella
+logoutlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -550.9557356150912
+  y: 100.0
+  z: -82.92122137263269
+  yaw: 118.99446868896484
+  pitch: 38.96686553955078

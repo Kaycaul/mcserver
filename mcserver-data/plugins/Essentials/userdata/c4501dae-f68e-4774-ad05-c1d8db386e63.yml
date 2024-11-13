@@ -1,0 +1,41 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.183.167.254
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1723236577921
+  login: 1723236571566
+money: '0'
+last-account-name: Kibyts
+logoutlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -407.3283631878439
+  y: 109.0
+  z: 8.886057192410318
+  yaw: 174.44140625
+  pitch: 30.231807708740234
+lastlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -402.8244653623821
+  y: 95.41999998688698
+  z: -55.969044540224154
+  yaw: -0.77764892578125
+  pitch: 18.77668571472168
+past-usernames:
+- kibyts
+- Kibyts

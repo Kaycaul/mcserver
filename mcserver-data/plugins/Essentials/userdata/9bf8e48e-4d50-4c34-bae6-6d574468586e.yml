@@ -1,0 +1,32 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.236.204.230
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1699053546968
+  login: 1699053505033
+money: '0'
+last-account-name: Acephal
+logoutlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -556.6999999880791
+  y: 319.0
+  z: -129.50284874260174
+  yaw: 90.14166259765625
+  pitch: 81.6414794921875
+past-usernames:
+- Esotericfist

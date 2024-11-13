@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.18.168.124
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1698285673462
+  login: 1698281363344
+money: '0'
+last-account-name: k3ts
+logoutlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -368.6855324073033
+  y: 153.0
+  z: -56.837525604329215
+  yaw: 179.52886962890625
+  pitch: 31.409099578857422
+lastlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -332.69999998807907
+  y: 79.0
+  z: -39.30000001192093
+  yaw: 103.00436401367188
+  pitch: 48.43211364746094

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.12.143.141
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1703785446488
+  login: 1703783060833
+money: '0'
+last-account-name: SuboptiSolut
+logoutlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -428.7711225576695
+  y: 99.0
+  z: -54.09377910083951
+  yaw: 24.08521842956543
+  pitch: 9.150036811828613

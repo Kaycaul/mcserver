@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.174.114.83
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1730418395831
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731459444212
+  login: 1731385731781
+money: '0'
+last-account-name: doeball
+logoutlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -400.796639464502
+  y: 80.0625
+  z: -76.80427719089529
+  yaw: 136.805419921875
+  pitch: 11.411766052246094
+lastlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -484.53893680119677
+  y: 95.113579416076
+  z: -70.3394442702975
+  yaw: -113.0084228515625
+  pitch: 8.250049591064453
+past-usernames:
+- Kaycaul

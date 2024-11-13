@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "cff02397-f1e2-4e88-ab7b-3ca8c5d9f2dc",
+    "name": "doebalt",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "45744854-681a-4fee-94aa-8c0aef75d046",
+    "name": "Kaycaul",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

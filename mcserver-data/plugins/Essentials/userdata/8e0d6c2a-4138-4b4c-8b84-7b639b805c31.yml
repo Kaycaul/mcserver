@@ -1,0 +1,34 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.247.87.234
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731208899659
+  login: 1731206463370
+money: '0'
+last-account-name: Bagoogy
+logoutlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -596.6999999880791
+  y: 86.9375
+  z: -67.53697500210133
+  yaw: -144.65728759765625
+  pitch: 10.349864959716797
+past-usernames:
+- Wan_202
+- Bagoogy
+- xd_bagoogy

@@ -1,1 +1,7 @@
-mcserver-data
+mcserver-data/world*
+mcserver-data/.console_history
+mcserver-data/usercache.json
+mcserver-data/plugins/*.jar
+mcserver-data/plugins/DiscordSRV/discord-console-logs
+mcserver-data/plugins/DiscordSRV/config.yml
+mcserver-data/plugins/CoreProtect/database.db

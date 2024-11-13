@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.60.76.90
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1731412921021
+  login: 1731408935470
+money: '0'
+last-account-name: NikkyFolfy
+logoutlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -567.3362842260469
+  y: 69.0
+  z: -11.365834541107068
+  yaw: -105.47637939453125
+  pitch: 13.795726776123047
+lastlocation:
+  world: 080a5984-57e6-4dc6-9552-d600898a1e25
+  world-name: world
+  x: -522.8176560681791
+  y: 79.0
+  z: -45.60667784537857
+  yaw: 177.752685546875
+  pitch: 9.863697052001953
