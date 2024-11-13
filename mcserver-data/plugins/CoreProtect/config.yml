@@ -86,7 +86,7 @@ buckets: true
 # Logs natural tree leaf decay.
 leaf-decay: true
 
-# Logs tree growth. Trees are linked to the player who planted the sappling.
+# Logs tree growth. Trees are linked to the player who planted the sapling.
 tree-growth: true
 
 # Logs mushroom growth.

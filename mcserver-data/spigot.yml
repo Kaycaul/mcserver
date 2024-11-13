@@ -34,6 +34,8 @@ settings:
   restart-on-crash: true
 world-settings:
   default:
+    unload-frozen-chunks: false
+    seed-trialchambers: 94251327
     seed-trailruins: 83469867
     below-zero-generation-in-existing-chunks: true
     zombie-aggressive-towards-villager: true

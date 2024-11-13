@@ -32,16 +32,26 @@
 # 3. You can test webhooks by using "/uar debug webhook".
 
 webhook:
-   enabled: true
+  enabled: true
    # Note: Find the URL at Server Settings -> Integrations -> Webhooks -> Select your Webhook (or make a new one) -> Copy Webhook URL
-   url: 'https://discord.com/api/webhooks/1172401494058881024/nZJej12Eow0ES0xtq-fgG_oC3v6mjpmKd3yODqHk71BUQnSg36vvhwrEkCIghqFgq8CO'
-   
+  url: https://discord.com/api/webhooks/1172401494058881024/nZJej12Eow0ES0xtq-fgG_oC3v6mjpmKd3yODqHk71BUQnSg36vvhwrEkCIghqFgq8CO
+format:
+  timestamp: dd.MM.yyyy - HH:mm:ss
+
+# Placeholders: {TIMESTAMP}, {SECONDS}, {FORMATTED}
+# Placeholders for SERVER_FORCED_RESTART only: {REASON}
 messages:
       
-   SERVER_RESTARTING:
-      enabled: true
-      content: 'nap time hoooonk mimimimimi'
+  SERVER_RESTARTING:
+    enabled: true
+    content: nap time hoooonk mimimimimi
       
-   SERVER_BACK_UP:
-      enabled: true
-      content: 'ok nap time over, join at `meow.doeball.ca`'
+  SERVER_BACK_UP:
+    enabled: true
+    content: ok nap time over, join at `meow.doeball.ca`
+  SERVER_RESTART_COUNTDOWN:
+    enabled: true
+    content: The server will restart in {FORMATTED}
+  SERVER_FORCED_RESTART:
+    enabled: true
+    content: 'The server will force restart in {FORMATTED}. Reason: {REASON}'

@@ -5,3 +5,14 @@ mcserver-data/plugins/*.jar
 mcserver-data/plugins/DiscordSRV/discord-console-logs
 mcserver-data/plugins/DiscordSRV/config.yml
 mcserver-data/plugins/CoreProtect/database.db
+mcserver-data/*.jar
+mcserver-data/.rcon*
+mcserver-data/versions
+mcserver-data/libraries
+mcserver-data/logs
+mcserver-data/cache
+mcserver-data/.cache
+*.old
+*.delete
+mcserver-data/plugins/.paper-remapped
+mcserver-data/plugins/DiscordSRV/accounts.aof
