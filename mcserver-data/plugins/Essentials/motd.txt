@@ -1,2 +1,0 @@
-&6Welcome to the server {PLAYER}&6!
-&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
