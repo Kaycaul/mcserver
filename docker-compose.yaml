@@ -15,3 +15,10 @@ services:
     volumes:
       - ./mcserver-data:/data
     restart: unless-stopped
+  playit:
+    image: ghcr.io/playit-cloud/playit-agent:0.15
+    container_name: playit
+    network_mode: host
+    environment:
+    - SECRET_KEY=${PLAYIT_SECRET_KEY}
+    restart: unless-stopped
