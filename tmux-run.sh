@@ -20,12 +20,10 @@ tmux kill-window -t $SESSION:mcserver
 tmux new-window -t $SESSION -n mcserver
 
 # attach to server, playit, exec rcon-cli, and open bash in the new window
-tmux split-window -v -t $SESSION:mcserver
-tmux split-window -h -t $SESSION:mcserver.0
-tmux split-window -h -t $SESSION:mcserver.2
+tmux split-window -h -t $SESSION:mcserver
+tmux split-window -v -t $SESSION:mcserver.1
 tmux send-keys -t $SESSION:mcserver.0 "docker attach paper" C-m
 tmux send-keys -t $SESSION:mcserver.1 "docker attach playit" C-m
-tmux send-keys -t $SESSION:mcserver.2 "docker exec -it paper rcon-cli" C-m
 
 # attach to session if not already in tmux
 if [ -z "$TMUX" ]; then
