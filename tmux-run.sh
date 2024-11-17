@@ -1,11 +1,16 @@
 #!/bin/sh
 
-if [ -z "$TMUX" ]; then
-    echo "Error: Run this script inside a tmux session."
-    exit 1
-fi
+# default session name, personal preference
+DEFAULT_SESSION="main"
 
-SESSION=$(tmux display-message -p '#S')
+if [ -z "$TMUX" ]; then
+    # open a session with the default name if it doesnt exist
+    SESSION=$DEFAULT_SESSION
+    tmux new-session -d -s $SESSION
+else
+    # get the name of the current session
+    SESSION=$(tmux display-message -p '#S')
+fi
 
 # run the mcserver docker compose detatched
 docker compose up -d
@@ -20,4 +25,9 @@ tmux split-window -h -t $SESSION:mcserver.0
 tmux split-window -h -t $SESSION:mcserver.2
 tmux send-keys -t $SESSION:mcserver.0 "docker attach paper" C-m
 tmux send-keys -t $SESSION:mcserver.1 "docker attach playit" C-m
-tmux send-keys -t $SESSION:mcserver.2 "sleep 30 ; docker exec -it paper rcon-cli" C-m
+tmux send-keys -t $SESSION:mcserver.2 "docker exec -it paper rcon-cli" C-m
+
+# attach to session if not already in tmux
+if [ -z "$TMUX" ]; then
+    tmux attach -t $SESSION
+fi
