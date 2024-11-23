@@ -12,6 +12,7 @@ services:
       MEMORY: 4G
     ports:
       - "25565:25565"
+      - "8123:8123"
     volumes:
       - ./mcserver-data:/data
     restart: unless-stopped
